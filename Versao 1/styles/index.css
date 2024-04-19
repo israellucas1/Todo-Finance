@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.principal {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.tableList {
+  color: #fff;
+}
+
+.tableList thead tr th {
+  border: 1px solid white;
+}
+
+.tableList tbody tr td {
+  border: 1px solid white;
+}
+
+.formRegister {
+  display: none;
+}
+
+.formRegister.ativo {
+  display: block;
+}
+
+.mensagem{
+  color: white;
+}
